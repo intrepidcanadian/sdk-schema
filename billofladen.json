@@ -1,0 +1,26 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "required": ["Shipper", "Carrier", "Consignee", "Product", "Quantity", "Weight"],
+    "additionalProperties": false,
+    "properties": {
+      "Shipper": {
+        "type": "string"
+      },
+      "Carrier": {
+        "type": "string"
+      },
+      "Consignee": {
+        "type": "string"
+      },
+      "Product": {
+        "type": "string"
+      },
+      "Quantity": {
+        "type": "string"
+      },
+      "Weight": {
+        "type": "string"
+      }
+    }
+  }
